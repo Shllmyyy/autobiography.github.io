@@ -131,7 +131,7 @@ body {
   }
   .footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("image source/footer.jpg");
+      url("footer.JPG");
     height: 50%;
     padding: 30px 0px;
     font-family: "Play", sans-serif;
