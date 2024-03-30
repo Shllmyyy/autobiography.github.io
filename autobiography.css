@@ -12,7 +12,7 @@ body {
   }
   #aboutMe {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("bgs2.jpg");
+      url("bgs2.JPG");
     padding-top: 20px;
     height: auto;
     color: #fff;
@@ -20,7 +20,7 @@ body {
   }
   #personalLife {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("bgs1.jpg");
+      url("bgs1.JPG");
     padding-top: 20px;
     height: auto;
     color: #fff;
@@ -28,7 +28,7 @@ body {
   }
   #achievementsAndawards {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("bgs2.jpg");
+      url("bgs2.JPG");
     padding-top: 20px;
     height: auto;
     color: #fff;
@@ -36,7 +36,7 @@ body {
   }
   #myGallery {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("bgs1.jpg");
+      url("bgs1.JPG");
     padding-top: 20px;
     height: auto;
     color: #fff;
@@ -44,7 +44,7 @@ body {
   }
   #contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("bgs2.jpg");
+      url("bgs2.JPG");
     padding-top: 20px;
     height: auto;
     color: #fff;
