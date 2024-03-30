@@ -1,0 +1,264 @@
+body {
+    position: relative;
+  }
+  #home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #aboutMe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bgs2.jpg");
+    padding-top: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #0a0b0e;
+  }
+  #personalLife {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bgs1.jpg");
+    padding-top: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #0a0b0e;
+  }
+  #achievementsAndawards {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bgs2.jpg");
+    padding-top: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #0a0b0e;
+  }
+  #myGallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bgs1.jpg");
+    padding-top: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #0a0b0e;
+  }
+  #contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/bgs2.jpg");
+    padding-top: 20px;
+    height: auto;
+    color: #fff;
+    background-color: #0a0b0e;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 20px 25px;
+    color: white;
+    background-color: #08000e00;
+    text-align: center;
+    cursor: pointer;
+  }
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  body {
+    margin: auto;
+    overflow-x: hidden;
+  }
+  * {
+    box-sizing: content-box;
+  }
+  .main {
+    max-width: 5000px;
+    margin: auto;
+  }
+  .row {
+    margin: 10px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content {
+    background-color: #0a0b0e;
+    padding: 10px;
+  }
+  .show {
+    display: block;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #0a0b0e;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #ddd;
+  }
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  .footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("image source/footer.jpg");
+    height: 50%;
+    padding: 30px 0px;
+    font-family: "Play", sans-serif;
+    text-align: center;
+  }
+  
+  .footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+  }
+  
+  .footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  
+  .footer .row a:hover {
+    color: #fff;
+  }
+  
+  .footer .row ul {
+    width: 100%;
+  }
+  
+  .footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  .footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+  }
+  
+  @media (max-width: 720px) {
+    .footer {
+      text-align: left;
+      padding: 5%;
+    }
+    .footer .row ul li {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+    }
+    .footer .row a i {
+      margin: 0% 3%;
+    }
+  }
+  div.gallery {
+    background-color: #0a0b0e;
+    border: 1px solid #0a0b0e;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: left;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+  }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column2 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column2 {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column2 {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
