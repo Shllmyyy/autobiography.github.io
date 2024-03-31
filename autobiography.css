@@ -100,7 +100,7 @@ body {
     clear: both;
   }
   .content {
-    background-color: #0a0b0e;
+    background-color: #0a0b0e00;
     padding: 10px;
   }
   .show {
@@ -177,11 +177,11 @@ body {
     }
   }
   div.gallery {
-    background-color: #0a0b0e;
-    border: 1px solid #0a0b0e;
+    background-color: #0a0b0e00;
+    border: 1px solid #0a0b0e00;
   }
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #77777700;
   }
   div.gallery img {
     max-width: 100%;
